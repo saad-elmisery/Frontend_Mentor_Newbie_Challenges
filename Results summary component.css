@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.test_score {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  display: inline-block;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 95px;
+  border-radius: 8px;
+  border: none;
+  height: 300px;
+  width: 220px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.result_announcement {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  padding-top: 25px;
+}
+
+.circle {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 70%;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.rest_of_score {
+  color: hsl(242, 95%, 85%);
+  font-size: 14px;
+  position: absolute;
+  padding-left: 93px;
+  top: 20%;
+  padding-top: 90px;
+}
+
+.congrats {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.test_stats {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+}
+.line_2 {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+}
+.line_3 {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+}
+.score_analysis {
+  background-color: hsl(0, 0%, 100%);
+  display: inline-block;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+  border-radius: 8px;
+  border: none;
+  height: 300px;
+  width: 250px;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.list_header {
+  padding: 25px 0 0 30px;
+  font-weight: bold;
+}
+.grade_list_items {
+  list-style: none;
+  padding-left: 35px;
+  font-size: 14px;
+}
+
+.list_grade_reaction {
+  padding: 10px 5px;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+  background-clip: padding-box;
+}
+.reaction_first_degree {
+  color: black;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.reaction_second_degree {
+  color: gray;
+  font-weight: bold;
+}
+.list_grade_memory {
+  padding: 10px 5px;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.memory_first_degree {
+  color: black;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.memory_second_degree {
+  color: gray;
+  font-weight: bold;
+}
+.list_grade_verbal {
+  padding: 10px 5px;
+  background-color: hsl(166, 100%, 73%, 0.1);
+  color: hsl(166, 100%, 73%);
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.verbal_first_degree {
+  color: black;
+  font-weight: bold;
+  padding-left: 55px;
+}
+.verbal_second_degree {
+  color: gray;
+  font-weight: bold;
+}
+.list_grade_visual {
+  padding: 10px 5px;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.visual_first_degree {
+  color: black;
+  font-weight: bold;
+  padding-left: 55px;
+}
+.visual_second_degree {
+  color: gray;
+  font-weight: bold;
+}
+.continue_button {
+  border: none;
+  border-radius: 40px;
+  color: white;
+  background-color: rgb(68, 57, 57);
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 195px;
+  display: inline-block;
+  position: absolute;
+  bottom: 26px;
+  left: 30px;
+}
+
+.continue_button:hover {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  font-size: 11px;
+  text-align: center;
+}
