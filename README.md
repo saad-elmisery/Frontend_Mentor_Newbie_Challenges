@@ -1,7 +1,5 @@
 # Frontend_Mentor_Newbie_Challenges_results-summary-component-main
 
-# Frontendmentor_newbie-challenge_3-column-preview-card
-
 This challenge from FrontendMentor.io required me to create a responsive three-column card preview layout using HTML, CSS, and SCSS. I used CSS Grid and Flexbox to position and style the cards and their contents.
 
 ## Technologies Used
